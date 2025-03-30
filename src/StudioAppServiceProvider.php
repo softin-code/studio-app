@@ -3,7 +3,7 @@
 namespace SoftinCode\StudioApp;
 
 use Illuminate\Support\ServiceProvider;
-use Softin\StudioApp\Macros\BlueprintMacro;
+use SoftinCode\StudioApp\Macros\BlueprintMacro;
 
 class StudioAppServiceProvider extends ServiceProvider
 {
