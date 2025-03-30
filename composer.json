@@ -11,13 +11,13 @@
     ],
     "autoload": {
         "psr-4": {
-            "Softin\\StudioApp\\": "src/"
+            "Softin-Code\\StudioApp\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Softin\\StudioApp\\StudioAppServiceProvider"
+                "Softin-Code\\StudioApp\\StudioAppServiceProvider"
             ]
         }
     },
@@ -28,8 +28,9 @@
         }
     ],
     "require": {
-        "php": ">=8.0"
+        "php": ">=8.0",
+        "softin-code/studio-app": "dev-master"
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
