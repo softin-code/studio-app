@@ -1,0 +1,29 @@
+{
+    "name": "softin/studio-app",
+    "description": "Laravel Blueprint Macro for saving table structures",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "your-email@example.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Softin\\StudioApp\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Softin\\StudioApp\\StudioAppServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": "^9|^10|^11"
+    }
+}
