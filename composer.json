@@ -30,6 +30,6 @@
     "require": {
         "php": ">=8.0"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }
