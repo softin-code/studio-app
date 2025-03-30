@@ -1,6 +1,6 @@
 <?php
 
-namespace Softin\StudioApp\Macros;
+namespace SoftinCode\StudioApp\Macros;
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
