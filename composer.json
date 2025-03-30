@@ -1,5 +1,5 @@
 {
-    "name": "softin/studio-app",
+    "name": "softin-code/studio-app",
     "description": "Laravel Blueprint Macro for saving table structures",
     "type": "library",
     "license": "MIT",
@@ -21,9 +21,10 @@
             ]
         }
     },
-    "minimum-stability": "dev",
     "require": {
         "php": ">=8.0",
         "illuminate/support": "^9|^10|^11"
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
