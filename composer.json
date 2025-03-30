@@ -5,8 +5,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Your Name",
-            "email": "your-email@example.com"
+            "name": "Md. Alamgir Hossain",
+            "email": "goodakas@gmail.com"
         }
     ],
     "autoload": {
@@ -21,9 +21,14 @@
             ]
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/softin-code/studio-app.git"
+        }
+    ],
     "require": {
-        "php": ">=8.0",
-        "illuminate/support": "^9|^10|^11"
+        "php": ">=8.0"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
