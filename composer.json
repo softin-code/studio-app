@@ -31,6 +31,6 @@
         "php": ">=8.0",
         "softin-code/studio-app": "dev-master"
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
